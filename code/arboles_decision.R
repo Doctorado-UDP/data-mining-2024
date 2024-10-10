@@ -72,10 +72,10 @@ predicciones
 
 ## PASO 6: Aplicar diferentes criterios de división
 
-# Árbol con el criterio Gini
+## Árbol con el criterio Gini
 modelo_gini <- rpart(mortalidad_infantil ~ log(pib) + log(poblacion), data = datos_modelo, method = "class", parms = list(split = "gini"))
 
-# Árbol con el criterio de entropía (deviance)
+## Árbol con el criterio de entropía (deviance)
 modelo_entropy <- rpart(mortalidad_infantil ~ log(pib) + log(poblacion), data = datos_modelo, method = "class", parms = list(split = "information"))
 
 ## PASO 7: Poder el árbol de decisión
