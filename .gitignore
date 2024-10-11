@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+/.venv
+code/.ipynb_checkpoints/aboles_decision-checkpoint.ipynb
+code/.jupyter/desktop-settings.json
+code/.jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
+code/.virtual_documents/aboles_decision.ipynb
