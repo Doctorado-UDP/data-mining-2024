@@ -15,7 +15,8 @@ Cada uno de estos conjuntos fue dividido en dos para contener de forma separada 
 1. Utilizar [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv) e [y_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/y_train.csv) para entrenar sus modelos y [X_val.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_val.csv) e [y_val.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/y_val.csv) para validarlos.
 2. Obtener las etiquetas predichas utilizando [X_test.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_test.csv) y subirlas a la carpeta [prediction_challenge/submissions](https://github.com/Doctorado-UDP/data-mining-2024/tree/main/prediction_challenge/submissions)
 3. Pueden utilizar como script base el [código de ejemplo](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/baseline_model.ipynb) y preparar modelos afinados.
-4. El siguiente [código](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/submissions_eval.ipynb) será utilizado por el profesor para calcular diariamente el [**leaderboard**](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/leaderboard.csv).
+4. El siguiente [código](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/submissions_eval.ipynb) será utilizado, por el profesor, para calcular el [**leaderboard**](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/leaderboard.csv).
+5. El leaderboard se calculará diariamente, excepto los días sábados, hasta que cierre el challenge.
 
 **Cuestiones logísticas:**
 
