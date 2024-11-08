@@ -12,8 +12,8 @@ Cada uno de estos conjuntos fue dividido dos para contener de forma separada pre
 
 **Los participantes deberán:**
 
-1. Utilizar X_train.csv e y_train.csv para entrenar sus modelos y X_val.csv e y_val.csv para validarlos.
-2. Obtener las etiquetas predichas utilizando X_test.csv y enviarlas subiéndolas a la carpeta [prediction_challenge/submissions](https://github.com/Doctorado-UDP/data-mining-2024/tree/main/prediction_challenge/submissions)
+1. Utilizar [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv) e [y_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/y_train.csv) para entrenar sus modelos y [X_val.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_val.csv) e [y_val.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/y_val.csv) para validarlos.
+2. Obtener las etiquetas predichas utilizando [X_test.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_test.csv) y enviarlas subiéndolas a la carpeta [prediction_challenge/submissions](https://github.com/Doctorado-UDP/data-mining-2024/tree/main/prediction_challenge/submissions)
 3. Pueden utilizar como script base el código de ejemplo y preparar modelos afinados.
 4. El siguiente código será utilizado por el profesor para calcular diariamente el **leaderboard**.
 
@@ -27,11 +27,11 @@ Cada uno de estos conjuntos fue dividido dos para contener de forma separada pre
 
 ## Fórmula para la calificación
 
-$$y = \alpha + ($X$ - 0.001) \times 6.258$$ 
+$$y = \alpha + (X - 0.001) \times 6.258$$ 
 
 Donde $y$ es la nota de 1.0 a .70; $\alpha$ = 1.0; $X$ es el mejor F1-Score obtenido durante el challenge.
 
-De esta forma F1-Score 0.800 sería $\sim$6.0; 0.900 \$\sim$6.6 y la nota máxima se alcanzaría con una F1-Score = 0.960.
+De esta forma F1-Score 0.800 sería $\sim$ 6.0; 0.900 \$\sim$ 6.6 y la nota máxima se alcanzaría con una F1-Score = 0.960.
 
 ## Codebook
 
