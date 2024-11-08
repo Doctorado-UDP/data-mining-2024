@@ -26,7 +26,7 @@ Es importante que los participantes completen la metadata en el código para el 
 * model_name = "RF100" - Nombre del modelo: Naive Bayes (NB), Support Vector Machine (SVM), Random Forest (RFX) donde X es el número de árboles, XGBoost.
 * submission_number = "1" - El número de envío, mantener las comillas por favor.
 
-**Durante el challenge NO se subirán los códigos de cada envío, sin embargo, luego se revisarán los scripts de los mejores modelos**
+**Durante el challenge NO se subirán los códigos de cada envío, sin embargo, luego se revisarán los scripts de los mejores modelos.**
 
 **Cuestiones logísticas:**
 
