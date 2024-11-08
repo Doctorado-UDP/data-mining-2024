@@ -20,9 +20,9 @@ Cada uno de estos conjuntos fue dividido en dos para contener de forma separada 
 
 **Formato de envío (también disponible en el código de ejemplo):**
 
-Es importante que los participantes completen la metadata en el código para el envío y verifiquen el formato del archivo con predicciones.
+Es importante que los participantes completen la metadata en el código para el envío y verifiquen el formato del archivo con predicciones (**submission_Nombre_Modelo_N-envío.csv**).
 
-* participant = "Baseline" - Nombre del participante, solo primer nombre
+* participant = "Baseline" - Nombre del participante, solo primer nombre.
 * model_name = "RF100" - Nombre del modelo: Naive Bayes (NB), Support Vector Machine (SVM), Random Forest (RFX) donde X es el número de árboles, XGBoost.
 * submission_number = "1" - El número de envío, mantener las comillas por favor.
 
