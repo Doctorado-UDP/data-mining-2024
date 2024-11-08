@@ -20,7 +20,7 @@ Cada uno de estos conjuntos fue dividido en dos para contener de forma separada 
 
 **Cuestiones logísticas:**
 
-1. Se puede realizar máximo **un envío por día** por GitHub.
+1. Se puede realizar máximo **un envío por día**.
 2. Cada modelo tiene un límite de **cinco predictores**.
 3. Los participantes pueden crear índices, recodificar y transformar predictores utilizando los datos de entrenamiento y probar distintos hiperparámetros y modelos. 
 4. Los participantes tienen **prohibido** crear nuevas variables con información que no exista en el conjunto de datos de entrenamiento.
@@ -32,7 +32,7 @@ $$y = \alpha + (X - 0.001) \times 6.258$$
 
 Donde $y$ es la nota de 1.0 a 7.0; $\alpha$ = 1.0; $X$ es el mejor F1-Score obtenido durante el challenge.
 
-De esta forma F1-Score = 0.800 $\sim$ 6.0; 0.900 \$\sim$ 6.6 y la nota máxima se alcanzaría con 0.960.
+De esta forma F1-Score = 0.800 $\sim$ 6.0; 0.900 \$\sim$ 6.6; y la nota máxima se alcanzaría con 0.960.
 
 ## Codebook
 
