@@ -18,6 +18,14 @@ Cada uno de estos conjuntos fue dividido en dos para contener de forma separada 
 4. El siguiente [código](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/submissions_eval.ipynb) será utilizado, por el profesor, para calcular el [**leaderboard**](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/leaderboard.csv).
 5. El leaderboard se calculará diariamente, excepto los días sábados, hasta que cierre el challenge.
 
+**Formato de envío (también disponible en el código de ejemplo):***
+
+Es importante que los participantes completen la metadata en el código para el envío y verifiquen el formato del archivo con predicciones.
+
+* participant = "Baseline" - Nombre del participante, solo primer nombre
+* model_name = "RF100" - Nombre del modelo: Naive Bayes (NB), Support Vector Machine (SVM), Random Forest (RFX) donde X es el número de árboles, XGBoost.
+* submission_number = "1" - El número de envío, mantener las comillas por favor.
+
 **Cuestiones logísticas:**
 
 1. Se puede realizar máximo **un envío por día**.
