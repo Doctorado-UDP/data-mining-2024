@@ -29,7 +29,7 @@ Cada uno de estos conjuntos fue dividido dos para contener de forma separada pre
 
 $$y = \alpha + (X - 0.001) \times 6.258$$ 
 
-Donde $y$ es la nota de 1.0 a .70; $\alpha$ = 1.0; $X$ es el mejor F1-Score obtenido durante el challenge.
+Donde $y$ es la nota de 1.0 a 7.0; $\alpha$ = 1.0; $X$ es el mejor F1-Score obtenido durante el challenge.
 
 De esta forma F1-Score = 0.800 $\sim$ 6.0; 0.900 \$\sim$ 6.6 y la nota máxima se alcanzaría con 0.960.
 
