@@ -18,7 +18,7 @@ Cada uno de estos conjuntos fue dividido en dos para contener de forma separada 
 4. El siguiente [código](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/submissions_eval.ipynb) será utilizado, por el profesor, para calcular el [**leaderboard**](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/leaderboard.csv).
 5. El leaderboard se calculará diariamente, excepto los días sábados, hasta que cierre el challenge.
 
-**Formato de envío (también disponible en el código de ejemplo):***
+**Formato de envío (también disponible en el código de ejemplo):**
 
 Es importante que los participantes completen la metadata en el código para el envío y verifiquen el formato del archivo con predicciones.
 
