@@ -41,9 +41,7 @@ Es importante que los participantes completen la metadata en el código para el 
 ## Leaderboard actualizado
 
 Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Score
-
 --- | --- | --- | --- | --- | --- | --- | --- 
-
 Fabian | 08/11/2024 | 1 | RF1000 | 0.897 | 0.898 | 0.897 | 0.897 
 Nando | 08/11/2024 | 1 | RF500 | 0.893 | 0.896 | 0.893 | 0.892 
 Laura | 08/11/2024 | 1 | RF100 | 0.807 | 0.811 | 0.807 | 0.809
