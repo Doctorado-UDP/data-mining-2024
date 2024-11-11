@@ -61,7 +61,10 @@ De esta forma F1-Score = 0.800 $\sim$ 6.0; 0.900 \$\sim$ 6.6; y la nota máxima 
 
 Los participantes deberían aplicar los pasos de recodificación y transformaciones no solo a [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv), también a [X_val.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_val.csv) y [X_test.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_test.csv). Esto asegura la consistencia para la validación y los cálculos finales de las métricas.
 
-Aunque ciertas transformaciones (e.g, scaling, encoding) deben ser aplicadas a todos los conjuntos, es importante que **los parámetros (e.g., media o SD) sean obtenidas solamente de [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv)**. Esto evita **data leakage** a través de la influencia de los patrones de **validation test** and **test set** en el conjunto de datos de entrenamiento, garantizando una mejor generalización del modelo y evitando métricas infladas.
+> [!CAUTION]
+> Aunque ciertas transformaciones (e.g, scaling, encoding) deben ser aplicadas a todos los conjuntos, es importante que **los parámetros (e.g., media o SD) sean obtenidas solamente de [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv)**. 
+
+Esto evita **data leakage** a través de la influencia de los patrones de **validation test** and **test set** en el conjunto de datos de entrenamiento, garantizando una mejor generalización del modelo y evitando métricas infladas.
 
 No es necesario imputar la variable objetivo ya que, como se ha indicado, todos los valores perdidos ya han sido descartados. Es posible imputar los predictores.
  
