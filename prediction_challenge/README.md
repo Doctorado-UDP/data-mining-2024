@@ -38,6 +38,18 @@ Es importante que los participantes completen la metadata en el código para el 
 4. Los participantes tienen **prohibido** crear nuevas variables con información que no exista en el conjunto de datos de entrenamiento.
 5. El challenge termina el **viernes 22 de noviembre de 2024 a las 23.59 horas** de Santiago de Chile.
 
+## Leaderboard actualizado
+
+Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Score
+
+--- | --- | --- | --- | --- | --- | --- | --- 
+
+Fabian | 08/11/2024 | 1 | RF1000 | 0.897 | 0.898 | 0.897 | 0.897 
+Nando | 08/11/2024 | 1 | RF500 | 0.893 | 0.896 | 0.893 | 0.892 
+Laura | 08/11/2024 | 1 | RF100 | 0.807 | 0.811 | 0.807 | 0.809
+Nando | 10/11/2024 | 2 | XGBoost | 0.695 | 0.747 | 0.695 | 0.679
+Baseline | 08/11/2024 | 1 | RF100 | 0.530 | 0.539 | 0.530 | 0.533
+
 ## Fórmula para la calificación
 
 $$y = \alpha + (X - 0.001) \times 6.258$$ 
