@@ -41,7 +41,7 @@ Es importante que los participantes completen la metadata en el código para el 
 ## Leaderboard actualizado
 
 Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Score
---- | --- | --- | --- | --- | --- | --- | --- 
+--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: 
 Fabian | 08/11/2024 | 1 | RF1000 | 0.897 | 0.898 | 0.897 | 0.897 
 Nando | 08/11/2024 | 1 | RF500 | 0.893 | 0.896 | 0.893 | 0.892 
 Laura | 08/11/2024 | 1 | RF100 | 0.807 | 0.811 | 0.807 | 0.809
@@ -52,7 +52,7 @@ Baseline | 08/11/2024 | 1 | RF100 | 0.530 | 0.539 | 0.530 | 0.533
 
 $$y = \alpha + (X - 0.001) \times 6.258$$ 
 
-Donde $y$ es la nota de 1.0 a 7.0; $\alpha$ = 1.0; $X$ es el mejor F1-Score obtenido durante el challenge.
+Donde $y$ es la nota de 1.0 a 7.0; $\alpha$ = 1.0; $X$ es **el mejor F1-Score obtenido** durante el challenge.
 
 De esta forma F1-Score = 0.800 $\sim$ 6.0; 0.900 \$\sim$ 6.6; y la nota máxima se alcanzaría con 0.960.
 
