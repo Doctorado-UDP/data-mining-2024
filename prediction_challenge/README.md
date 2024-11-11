@@ -46,6 +46,7 @@ Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Sco
 Fabian | 08/11/2024 | 1 | RF1000 | 0.897 | 0.898 | 0.897 | 0.897 
 Nando | 08/11/2024 | 1 | RF500 | 0.893 | 0.896 | 0.893 | 0.892 
 Laura | 08/11/2024 | 1 | RF100 | 0.807 | 0.811 | 0.807 | 0.809
+Nando | 11/11/2024 | 3 | XGBoost | 0.725 | 0.774 | 0.725 | 0.715 
 Nando | 10/11/2024 | 2 | XGBoost | 0.695 | 0.747 | 0.695 | 0.679
 Baseline | 08/11/2024 | 1 | RF100 | 0.530 | 0.539 | 0.530 | 0.533
 
@@ -67,7 +68,7 @@ Los participantes deberían aplicar los pasos de recodificación y transformacio
 Esto evita **data leakage** a través de la influencia de los patrones de **validation test** and **test set** en el conjunto de datos de entrenamiento, garantizando una mejor generalización del modelo y evitando métricas infladas.
 
 No es necesario imputar la variable objetivo ya que, como se ha indicado, todos los valores perdidos ya han sido descartados. Es posible imputar los predictores.
- 
+
 > [!TIP]
 > A continuación, hay algunos **ejemplos** de **transformaciones consistentes**, **imputaciones** y **pipeline** para preprocesamiento.
 
