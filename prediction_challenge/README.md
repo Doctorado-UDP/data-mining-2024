@@ -28,6 +28,7 @@ Es importante que los participantes completen la metadata en el código para el 
 * model_name = "RF100" - Nombre del modelo: Naive Bayes (NB), Support Vector Machine (SVM), Random Forest (RFX) donde X es el número de árboles, XGBoost.
 * submission_number = "1" - El número de envío, mantener las comillas por favor.
 
+> [!NOTE]
 > **Durante el challenge NO se subirán los códigos de cada envío, sin embargo, luego se revisarán los scripts de los mejores modelos.**
 
 **Cuestiones logísticas:**
@@ -63,8 +64,9 @@ Los participantes deberían aplicar los pasos de recodificación y transformacio
 Aunque ciertas transformaciones (e.g, scaling, encoding) deben ser aplicadas a todos los conjuntos, es importante que **los parámetros (e.g., media o SD) sean obtenidas solamente de [X_train.csv](https://github.com/Doctorado-UDP/data-mining-2024/blob/main/prediction_challenge/data/X_train.csv)**. Esto evita **data leakage** a través de la influencia de los patrones de **validation test** and **test set** en el conjunto de datos de entrenamiento, garantizando una mejor generalización del modelo y evitando métricas infladas.
 
 No es necesario imputar la variable objetivo ya que, como se ha indicado, todos los valores perdidos ya han sido descartados. Es posible imputar los predictores.
-
-A continuación, hay algunos **ejemplos** de **transformaciones consistentes**, **imputaciones** y **pipeline** para preprocesamiento.
+ 
+> [!TIP]
+> A continuación, hay algunos **ejemplos** de **transformaciones consistentes**, **imputaciones** y **pipeline** para preprocesamiento.
 
 ```python
 from sklearn.preprocessing import StandardScaler
