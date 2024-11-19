@@ -84,12 +84,12 @@ print(non_toxic)
 1. Desde la página oficial de Ollama: https://ollama.com/.
 2. Descargar el instalador para Windows.
 
-##### **Paso 2: Ejecutar el instalador**
+### **Paso 2: Ejecutar el instalador**
 
 1. Abrir el archivo descargado y seguir las instrucciones en pantalla.
 2. Aceptar los términos y condiciones y seleccionar la ubicación de instalación.
 
-##### **Paso 3: Descargar y ejecutar un modelo**
+### **Paso 3: Descargar y ejecutar un modelo**
 
 1. Descargar Llama 3.2 (3B):
 
