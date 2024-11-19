@@ -6,7 +6,7 @@
 
 ## Dependencias para Transformers de Hugging Face
 
-##### **Paso 1: Instalar Python**
+### **Paso 1: Instalar Python**
 
 1. Descargar e instalar Python desde la página oficial: https://www.python.org/downloads/.
 2. Durante la instalación, asegúrarse de marcar la casilla **"Add Python to PATH"**.
@@ -49,7 +49,7 @@ pip install transformers
 
 ##### **Paso 4: Instalar dependencias útiles** (opcional)
 
-* Para trabajar con data sets grandes, instala `datasets` y `tokenizers`:
+* Para trabajar con data sets grandes, instalar `datasets` y `tokenizers`:
 
 ```bash
 pip install datasets tokenizers
