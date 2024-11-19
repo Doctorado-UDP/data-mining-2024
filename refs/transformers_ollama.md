@@ -11,7 +11,7 @@
 1. Descargar e instalar Python desde la página oficial: https://www.python.org/downloads/.
 2. Durante la instalación, asegúrarse de marcar la casilla **"Add Python to PATH"**.
 
-##### **Paso 2: Crear un entorno virtual (opcional, pero muy recomendado)**
+### **Paso 2: Crear un entorno virtual (opcional, pero muy recomendado)**
 
 1. Abrir la terminal (cmd o PowerShell) y crear un nuevo entorno virtual:
 
@@ -27,7 +27,7 @@ python -m venv nombre_del_entorno
 nombre_del_entorno\Scripts\activate
 ```
 
-##### **Paso 3: Instalar Transformers y PyTorch**
+### **Paso 3: Instalar Transformers y PyTorch**
 
 1. Asegurarse de tener `pip` actualizado:
 
@@ -47,7 +47,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install transformers
 ```
 
-##### **Paso 4: Instalar dependencias útiles** (opcional)
+### **Paso 4: Instalar dependencias útiles** (opcional)
 
 * Para trabajar con data sets grandes, instalar `datasets` y `tokenizers`:
 
@@ -61,9 +61,9 @@ pip install datasets tokenizers
 pip install matplotlib seaborn
 ```
 
-##### **Paso 5: Probar la Instalación**
+### **Paso 5: Probar la Instalación**
 
-1. Abre Python y escribe:
+1. Abrir Python y ejecutar:
 
 ```python
 ## Pipeline as a high-level helper
@@ -79,7 +79,7 @@ print(non_toxic)
 
 ## Instalación de Ollama en Windows
 
-##### **Paso 1: Descargar el instalador**
+### **Paso 1: Descargar el instalador**
 
 1. Desde la página oficial de Ollama: https://ollama.com/.
 2. Descargar el instalador para Windows.
