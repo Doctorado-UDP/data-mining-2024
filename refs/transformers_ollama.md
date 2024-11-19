@@ -1,4 +1,4 @@
-# Guía de Instalación de Dependencias para Transformers de Hugging Face y Ollama en Windows
+# Guía de instalación de dependencias para Transformers de Hugging Face y Ollama en Windows
 
 ## Data Mining - Doctorado UDP 2024
 
