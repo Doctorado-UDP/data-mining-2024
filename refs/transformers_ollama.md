@@ -61,7 +61,7 @@ pip install datasets tokenizers
 pip install matplotlib seaborn
 ```
 
-### **Paso 5: Probar la Instalación**
+### **Paso 5: Probar la instalación**
 
 1. Abrir Python y ejecutar:
 
