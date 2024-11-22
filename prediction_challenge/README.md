@@ -44,6 +44,7 @@ Es importante que los participantes completen la metadata en el código para el 
 Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Score
 --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: 
 Fabian :trophy: | 2024-11-18 | 4 | RF1000 | 0.926 | 0.927 | 0.926 | 0.926 
+Fabian | 2024-11-22 | 5 | RF1000 | 0.925 | 0.926 | 0.925 | 0.925 
 Fabian | 2024-11-12 | 3 | RF100000 | 0.923 | 0.925 | 0.923 | 0.923 
 Fabian | 2024-11-11 | 2 | RF10000 | 0.923 | 0.925 | 0.923 | 0.923 
 Nando | 2024-11-12 | 4 | XGBoost | 0.919 | 0.920 | 0.919 | 0.919 
