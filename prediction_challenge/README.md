@@ -4,7 +4,7 @@
 
 **Bastián González-Bustamante**
 
-![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.]([https://www.repostatus.org/badges/latest/inactive.svg](https://raw.githubusercontent.com/Doctorado-UDP/data-mining-2024/refs/heads/main/prediction_challenge/badges/inactive.svg)) ![License](https://raw.githubusercontent.com/Doctorado-UDP/data-mining-2024/refs/heads/main/prediction_challenge/badges/mit.svg)
+![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://raw.githubusercontent.com/Doctorado-UDP/data-mining-2024/refs/heads/main/prediction_challenge/badges/inactive.svg) ![License](https://raw.githubusercontent.com/Doctorado-UDP/data-mining-2024/refs/heads/main/prediction_challenge/badges/mit.svg)
 
 ## Instrucciones
 
